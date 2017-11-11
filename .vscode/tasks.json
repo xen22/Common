@@ -1,13 +1,17 @@
 {
     "version": "2.0.0",
     "tasks": [{
-        "taskName": "build",
+        "label": "build",
         "command": "dotnet",
         "type": "process",
         "args": [
             "build",
             "${workspaceFolder}/src/AD.Common/AD.Common.csproj"
         ],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        },
         "problemMatcher": "$msCompile"
     }]
 }
