@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <Import Project="../../../Infrastructure/project_targets/netstandard1.6.targets" />
+    <Import Project="../../../Infrastructure/project_targets/netstandard2.targets" />
 
     <ItemGroup>
         <!-- <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" /> -->
